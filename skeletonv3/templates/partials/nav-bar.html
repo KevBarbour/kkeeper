@@ -1,0 +1,55 @@
+
+
+<div class="banner">
+	<img id="logo" src=" /static/images/LOGO.jpg">
+
+	<div class="bannerinfo">
+
+	</div>
+</div>
+
+<nav id="menu">
+    <ul class="menu bar">
+        <li class="{% if active_tab == 'tab1' %} active{% endif %}"><a href="{% url 'home' %}">Home</a></li>
+        <li class="{% if active_tab == 'tab2' %} active{% endif %}"><a href="{% url 'products' %}">Products</a></li>
+        <li class="{% if active_tab == 'tab3' %} active{% endif %}"><a href="{% url 'about' %}">About</a></li>
+        <li class="{% if active_tab == 'tab4' %} active{% endif %}"><a href="{% url 'careers' %}">Careers</a></li>
+        <li class="{% if active_tab == 'tab5' %} active{% endif %}"><a href="{% url 'email' %}">Contact</a></li>
+    </ul>
+
+    <a class="toggle-nav" href="#">&#9776;</a>
+
+</nav>
+
+
+{% comment %}
+<nav>
+    <ul>
+        <li class="{% if active_tab == 'tab1' %} active{% endif %}"><a href="{% url 'home' %}">Home</a></li>
+        <li>
+            <a href="{% url 'products' %}">Products <span class="caret"></span></a>
+            <div>
+                <ul>
+                    <li>
+                        <a href="{% url 'products' %}#chair">Chair <span class="caret"></span></a>
+                        <div>
+                            <ul>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                <li><a href="{% url 'products' %}#table">Table</a></li>
+                <li><a href="cooker.html">Cooker</a></li>
+                                </ul>
+            </div>
+        </li>
+        <li><a href="{% url 'about' %}">About</a></li>
+        <li><a href="{% url 'careers' %}">Careers</a></li>
+        <li><a href="{% url 'email' %}">Contact</a></li>
+    </ul>
+</nav>{% endcomment %}
+

@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Contact{% endblock %}</title>
+</head>
+
+<title>
+	{% block pagecontent %}
+</title>
+
+
+<body class="bodyemail">
+	{% include 'partials/nav-bar.html' with active_tab='tab5'%}
+	<div class="content">
+		<div id="cinfo">
+            <h1 class="heading">Contact</h1>
+            <h3>Phone</h3>
+            <p>+1 (414)123-4567</p>
+            <h3>Fax</h3>
+            <p>+1 (414)123-7654</p>
+
+
+
+            <form action="" method="post">
+                <ul class="contactList">
+                    <li id="name" class="contact">{{ form.name }}</li>
+                    <li id="company" class="contact">{{ form.company }}</li>
+                    <li id="email" class="contact">{{ form.from_email }}</li>
+                    <li id="phone" class="contact">{{ form.phone }}</li>
+                    <li id="subject" class="contact">{{ form.subject }}</li>
+                    <li id="message" class="contact">{{ form.message }}</li>
+                </ul>
+                <input id=submitb type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="cmap">
+                        <h3>Head Office</h3>
+            <p>
+                123 99 Ave. Calgary <br>
+                Calgary, AB <br>
+                CANADA <br>
+                1A1 4A1
+            </p>
+
+            <div id="map">
+                <!-- AIzaSyClyKJ-7UKLIFZUNW3TFSYHVujk3rBysy4 Replace the value of the key parameter with your own API key. -->
+                <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClyKJ-7UKLIFZUNW3TFSYHVujk3rBysy4&callback=initMap">
+                </script>
+            </div>
+
+        </div>
+	</div>
+
+	{% include 'partials/footer.html' %}
+
+{% endblock %}
+</body>
+</html>
+
