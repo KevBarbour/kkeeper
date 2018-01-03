@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="364" selection-end-column="2" />
               <folding>
                 <element signature="e#420#558#0" expanded="false" />
                 <element signature="e#565#589#0" expanded="false" />
@@ -74,23 +74,6 @@
                 <element signature="e#7162#7230#0" expanded="false" />
                 <element signature="e#7240#7405#0" expanded="false" />
                 <element signature="e#7412#7503#0" expanded="false" />
-                <element signature="e#7513#7678#0" expanded="false" />
-                <element signature="e#7685#7776#0" expanded="false" />
-                <element signature="e#7786#7951#0" expanded="false" />
-                <element signature="e#8007#8040#0" expanded="false" />
-                <element signature="e#8047#8067#0" expanded="false" />
-                <element signature="e#8073#8093#0" expanded="false" />
-                <element signature="e#8102#8129#0" expanded="false" />
-                <element signature="e#8138#8164#0" expanded="false" />
-                <element signature="e#8170#8207#0" expanded="false" />
-                <element signature="e#8214#8235#0" expanded="false" />
-                <element signature="e#8241#8290#0" expanded="false" />
-                <element signature="e#8313#8428#0" expanded="false" />
-                <element signature="e#8438#8573#0" expanded="false" />
-                <element signature="e#8582#8681#0" expanded="false" />
-                <element signature="e#8693#8809#0" expanded="false" />
-                <element signature="e#8821#8925#0" expanded="false" />
-                <element signature="e#8940#8982#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -204,8 +187,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="342" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="280" />
+    <option name="y" value="5" />
     <option name="width" value="1031" />
     <option name="height" value="735" />
   </component>
@@ -320,7 +304,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="342" y="0" width="1031" height="735" extended-state="1" />
+    <frame x="280" y="5" width="1031" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37444934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -464,23 +448,6 @@
             <element signature="e#7162#7230#0" expanded="false" />
             <element signature="e#7240#7405#0" expanded="false" />
             <element signature="e#7412#7503#0" expanded="false" />
-            <element signature="e#7513#7678#0" expanded="false" />
-            <element signature="e#7685#7776#0" expanded="false" />
-            <element signature="e#7786#7951#0" expanded="false" />
-            <element signature="e#8007#8040#0" expanded="false" />
-            <element signature="e#8047#8067#0" expanded="false" />
-            <element signature="e#8073#8093#0" expanded="false" />
-            <element signature="e#8102#8129#0" expanded="false" />
-            <element signature="e#8138#8164#0" expanded="false" />
-            <element signature="e#8170#8207#0" expanded="false" />
-            <element signature="e#8214#8235#0" expanded="false" />
-            <element signature="e#8241#8290#0" expanded="false" />
-            <element signature="e#8313#8428#0" expanded="false" />
-            <element signature="e#8438#8573#0" expanded="false" />
-            <element signature="e#8582#8681#0" expanded="false" />
-            <element signature="e#8693#8809#0" expanded="false" />
-            <element signature="e#8821#8925#0" expanded="false" />
-            <element signature="e#8940#8982#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -552,7 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2184">
           <caret line="208" column="11" lean-forward="false" selection-start-line="208" selection-start-column="11" selection-end-line="208" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="65" column="70" lean-forward="true" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,10 +673,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/skeletonv3-jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="224" column="0" lean-forward="false" selection-start-line="224" selection-start-column="0" selection-end-line="224" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="364" selection-end-column="2" />
           <folding>
             <element signature="e#420#558#0" expanded="false" />
             <element signature="e#565#589#0" expanded="false" />
@@ -768,64 +772,7 @@
             <element signature="e#7162#7230#0" expanded="false" />
             <element signature="e#7240#7405#0" expanded="false" />
             <element signature="e#7412#7503#0" expanded="false" />
-            <element signature="e#7513#7678#0" expanded="false" />
-            <element signature="e#7685#7776#0" expanded="false" />
-            <element signature="e#7786#7951#0" expanded="false" />
-            <element signature="e#8007#8040#0" expanded="false" />
-            <element signature="e#8047#8067#0" expanded="false" />
-            <element signature="e#8073#8093#0" expanded="false" />
-            <element signature="e#8102#8129#0" expanded="false" />
-            <element signature="e#8138#8164#0" expanded="false" />
-            <element signature="e#8170#8207#0" expanded="false" />
-            <element signature="e#8214#8235#0" expanded="false" />
-            <element signature="e#8241#8290#0" expanded="false" />
-            <element signature="e#8313#8428#0" expanded="false" />
-            <element signature="e#8438#8573#0" expanded="false" />
-            <element signature="e#8582#8681#0" expanded="false" />
-            <element signature="e#8693#8809#0" expanded="false" />
-            <element signature="e#8821#8925#0" expanded="false" />
-            <element signature="e#8940#8982#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/skeletonv3-jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
