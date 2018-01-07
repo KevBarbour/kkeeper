@@ -15,11 +15,11 @@ def email(request):
             subject = form.cleaned_data['subject']
             from_email = form.cleaned_data['from_email']
             message = form.cleaned_data['message']
-            name = form.cleaned_data['name']
-            company = form.cleaned_data['company']
-            phone = form.cleaned_data['phone']
+            #name = form.cleaned_data['name']
+            #company = form.cleaned_data['company']
+            #phone = form.cleaned_data['phone']
             try:
-                send_mail(name, company, phone, subject, message, from_email, ['admin@example.com']) #change email
+                send_mail( subject, message, from_email, ['kkeeper.ch@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('thanks')
