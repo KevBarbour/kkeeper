@@ -9,7 +9,7 @@ urlpatterns = [
     url(r'^Careers/$', views.CareersPageView.as_view(), name='careers'),
     url(r'^Terms/$', views.TermsPageView.as_view(), name='terms'),
     url(r'^Privacy/$', views.PrivacyPageView.as_view(), name='privacy'),
-    url(r'^ethereumcash/$', views.EthereumCashPageView.as_view(), name='ethereumcash'),
+
     url(r'^email/$', views.email, name='email'),
     url(r'^thanks/$', views.thanks, name='thanks'),
 ]

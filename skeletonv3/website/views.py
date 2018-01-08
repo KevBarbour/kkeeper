@@ -19,7 +19,7 @@ def email(request):
             #company = form.cleaned_data['company']
             #phone = form.cleaned_data['phone']
             try:
-                send_mail( subject, message, from_email, ['kkeeper.ch@gmail.com'])
+                send_mail( subject, message, from_email, ['email@gmail.com'])
             except BadHeaderError:
                 return HttpResponse('Invalid header found.')
             return redirect('thanks')
@@ -54,5 +54,3 @@ class PrivacyPageView(TemplateView):
     template_name = "privacy.html"
 
 
-class EthereumCashPageView(TemplateView):
-    template_name = "ethereumcash.html"
