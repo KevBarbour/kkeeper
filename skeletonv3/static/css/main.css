@@ -64,16 +64,13 @@ mark {
     font-style:italic;
     font-weight:bold;
 }
-
 del {
     text-decoration: line-through;
 }
-
 abbr[title], dfn[title] {
     border-bottom:1px dotted;
     cursor:help;
 }
-
 table {
     border-collapse:collapse;
     border-spacing:0;
@@ -88,11 +85,9 @@ hr {
     margin:1em 0;
     padding:0;
 }
-
 input, select {
     vertical-align:middle;
 }
-
 ul {
     padding:10px 0 10px 10px;
     list-style: none;
@@ -159,14 +154,14 @@ body {
 /* Navigation Bar */
 
 .banner {
-	background: white;
+	background: black;
 	padding:0 0 0 0;
 	color: #FAEBD7;
 	font-weight: bold;
 	font-size: 50px;
 }
 #logo {
-    background: white;
+    background: black;
     height: 100px;
     width: auto;
     max-width: 750px;
@@ -176,15 +171,17 @@ body {
     overflow: visible;
 }
 .bannerinfo {
-    background-color: white;
+    background-color: black;
     height: 120px;
     width: 100%;
     overflow: visible;
 }
+
 /*----- Toggle Button -----*/
 .toggle-nav {
     display:none;
 }
+
 /*----- Menu -----*/
 @media screen and (min-width: 860px) {
     .menu {
@@ -193,11 +190,10 @@ body {
         padding:0px 0px;
         box-shadow:0px 0px 0px 0 rgba(0,0,0,0.15);
         border-radius:0 1px 0 1px;
-        background:#303030;
+        background:white;
     }
 }
 .menu ul {
-
     padding: 0 0 0px 0;
 }
 .menu li {
@@ -213,17 +209,19 @@ body {
     margin-right:0px;
 }
 .menu a {
+    text-decoration:none;
     text-align:center;
     display: block;
     padding:10px 25px 10px 25px;
     text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-    color:#777;
+    color:black;
     transition:background linear 0.15s;
 }
 .menu a:hover, .menu .current-item a {
-    text-decoration:none;
+    color: white;
 
 }
+
 /*----- Responsive -----*/
 @media screen and (max-width: 1150px) {
     .wrap {
@@ -248,10 +246,10 @@ body {
         position:absolute;
         top:120%;
         left:0px;
-        padding:10px 18px;
+        padding:10px 17px;
         box-shadow:0px 1px 1px rgba(0,0,0,0.15);
         border-radius:3px;
-        background:#303030;
+        background:white;
     }
     .menu ul:after {
         width:0px;
@@ -263,7 +261,8 @@ body {
         transform:translate(0%, -100%);
         border-left:7px solid transparent;
         border-right:7px solid transparent;
-        border-bottom:7px solid #303030;
+        border-bottom:7px solid rgba(255, 0, 204, 0.85);
+
     }
     .menu li {
         margin:5px 0px 5px 0px;
@@ -277,36 +276,32 @@ body {
         padding:20px;
         float:left;
         display:inline-block;
-        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
-        border-radius:3px;
-        background:#303030;
+        box-shadow:0px 0px 0px rgba(0,0,0,0.15);
+        border-radius:03px;
+        background:white;
         text-shadow:0px 1px 0px rgba(0,0,0,0.5);
-        color:#777;
+        color: #b3b3b3;
         font-size:20px;
         transition:color linear 0.15s;
     }
-    .toggle-nav:hover, .toggle-nav.active {
+    .toggle-nav:hover,
+    .toggle-nav.active {
         text-decoration:none;
         color:#66a992;
     }
-    .search-form {
-        margin:12px 0px 0px 20px;
-        float:left;
-    }
-    .search-form input {
-        box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
-    }
 }
 .active{
-    background: white;
+    background: black;
+    color: white;
 }
-
 .menu a {
     position: relative;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-transition: color 1000ms;
-    transition: color 1000ms
+    transition: color 1000ms;
+    text-shadow: 1px 1px 1px white;
+
 }
 .menu a:before{
     content: "";
@@ -316,7 +311,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: black;
+    color: white;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0%;
@@ -326,12 +322,10 @@ body {
     -webkit-transition: 300ms ease-out;
     transition: 300ms ease-out :
 }
-
 .menu a:hover:before{
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     }
-
 
 /* Index Page */
 
@@ -392,7 +386,7 @@ body {
 
 /* Email Contact page */
 .contact {
-    padding: 3px 5px 3px 5px;
+    padding: 0px 6px 3px 5px;
 }
 #email{
     float: left;
@@ -401,7 +395,7 @@ body {
     float: left;
 }
 #subject{
-    margin:10px 0 0 0 ;
+
 }
 #submitb{
     margin: 0 0 0 15px
