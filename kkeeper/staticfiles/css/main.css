@@ -1,0 +1,524 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+	
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ul {
+    padding:10px 0 10px 10px;
+    list-style: none;
+}
+
+/* General Style  */
+@font-face {
+  font-family: 'NHaasGroteskTXPro-55Rg';
+  src: url('../fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-55Rg.ttf');
+}
+
+* {font-family: "NHaasGroteskTXPro-55Rg";}
+
+h1 {
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0 0 20px 0;
+}
+h2 {
+    font-weight: bold;
+	font-size: 24px;
+	margin: 0 0 20px 0;
+}
+p {
+	font-size: 16px;
+	margin: 0 0 20px 0;
+}
+.bodyindex {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/background.gif") 50% 0 no-repeat fixed;
+}
+.bodyproducts {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/truck.jpg") 50% 0 no-repeat fixed;
+}
+.bodyabout {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/drillingrig.gif") 50% 0 no-repeat fixed;
+}
+.bodycareers {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/phone.jpg") 50% 0 no-repeat fixed;
+}
+.bodyemail {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/phone.jpg") 50% 0 no-repeat fixed;
+}
+.bodyterms {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/phone.jpg") 50% 0 no-repeat fixed;
+}
+.bodyprivacy {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url("/static/images/phone.jpg") 50% 0 no-repeat fixed;
+}
+.content {
+	min-height: calc(125vh - 300px);
+	padding: 45px 20px 20px 20px;
+	border: 0px solid #f20000;/* affects footer*/
+    min-width: 800px;
+    margin: 0 10% 0 10%;
+}
+
+/* Navigation Bar */
+.banner {
+	background: white;
+	padding:0 0 0 0;
+	color: #FAEBD7;
+	font-weight: bold;
+	font-size: 50px;
+}
+#logo {
+    background: white;
+    height: 100px;
+    width: auto;
+    max-width: 750px;
+    max-height: 100px;
+	float: left;
+	padding: 10px 20px 10px 20px;
+    overflow: visible;
+}
+.bannerinfo {
+    background-color: white;
+    height: 120px;
+    width: 100%;
+    overflow: visible;
+}
+/*.nav {
+	background: black;
+	padding-top:120px;
+	padding-bottom: 10px;
+	border-bottom: 10px;
+	border-bottom-color: #f20000;
+}
+.nav a {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0;
+}
+.nav ul {
+
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+
+
+  !*
+  position: fixed;
+  top:0;
+  width:100%;
+  *!
+}
+.nav ul li {
+	width: 20%; !* from above *!
+	float: left;
+	margin-bottom: 0;
+	padding-bottom: 0px ;
+	border-bottom: 5px solid #f20000;
+	font-size: 16px;
+}
+.nav ul li a {
+
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 0;
+	display: block;
+	width: 100%;
+
+
+	background: #000000; !* Old browsers *!
+
+	background: -moz-linear-gradient(top, #000000 0%, #ff87e9 100%); !* FF3.6+ *!
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ff87e9)); !* Chrome,Safari4+ *!
+	background: -webkit-linear-gradient(top, #000000 0%,#ff87e9 100%); !* Chrome10+,Safari5.1+ *!
+	background: -o-linear-gradient(top, #000000 0%,#ff87e9 100%); !* Opera 11.10+ *!
+	background: linear-gradient(to bottom, #000000 0%,#ff87e9 100%); !* W3C standard, IE10+ *!
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ff87e9',GradientType=0 ); !* IE6-9 *!
+}
+.nav ul li a:hover {
+
+!*
+	padding-top:20px;
+	margin-bottom:10px:
+
+*!
+
+  background: #f20000; !* Old browsers *!
+
+  background: -moz-linear-gradient(top, #000000 0%, #f20000 100%); !* FF3.6+ *!
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#f20000)); !* Chrome,Safari4+ *!
+
+  background: -webkit-linear-gradient(top, #000000 0%,#f20000 100%); !* Chrome10+,Safari5.1+ *!
+
+  background: -o-linear-gradient(top, #000000 0%,#f20000 100%); !* Opera 11.10+ *!
+
+  background: linear-gradient(to bottom, #000000 0%,#f20000 100%); !* W3C standard, IE10+ *!
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#f20000',GradientType=0 ); !* IE6-9 *!
+
+}
+.nav ul li a,
+.nav ul li a:focus {
+
+}
+.nav ul li a:visited,
+.nav ul li a:active {
+
+	background: #ff4486; !* Old browsers *!
+	background: -moz-linear-gradient(top, #000000 0%, #ff4486 100%); !* FF3.6+ *!
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(100%,#ff4486)); !* Chrome,Safari4+ *!
+	background: -webkit-linear-gradient(top, #000000 0%,#ff4486 100%); !* Chrome10+,Safari5.1+ *!
+	background: -o-linear-gradient(top, #000000 0%,#ff4486 100%); !* Opera 11.10+ *!
+	background: linear-gradient(to bottom, #000000 0%,#ff4486 100%); !* W3C standard, IE10+ *!
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ff4486',GradientType=0 ); !* IE6-9 *!
+
+	color: #FAEBD7;
+	font-weight: bold;
+}*/
+body {
+    color: #ffffff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+nav {
+  background-color: #fff;
+  border: 0px solid #dedede;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px 0px rgba(0, 0, 0, 0.055);
+  color: #888;
+  display: block;
+  margin: 0px 0px 0px 0px;
+  overflow: hidden;
+  width: 100%;
+}
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+    nav ul li {
+      display: inline-block;
+      list-style-type: none;
+
+      -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+      nav > ul > li > a > .caret,
+      nav > ul > li > div ul > li > a > .caret {
+        border-top: 4px solid #aaa;
+        border-right: 4px solid transparent;
+        border-left: 4px solid transparent;
+        content: "";
+        display: inline-block;
+        height: 0;
+        width: 0;
+        vertical-align: middle;
+
+        -webkit-transition: color 0.1s linear;
+          -moz-transition: color 0.1s linear;
+        -o-transition: color 0.1s linear;
+          transition: color 0.1s linear;
+      }
+        nav > ul > li > div ul > li > a > .caret {
+            border-bottom: 4px solid transparent;
+            border-top: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-left: 4px solid #f2f2f2;
+            margin: 0 0 0 8px;
+        }
+      nav > ul > li > a {
+        color: #aaa;
+        display: block;
+        line-height: 56px;
+        padding: 0 24px;
+        text-decoration: none;
+      }
+        nav > ul > li:hover {
+          background-color: rgb( 40, 44, 47 );
+        }
+        nav > ul > li:hover > a {
+          color: rgb( 255, 255, 255 );
+        }
+        nav > ul > li:hover > a > .caret {
+          border-top-color: rgb( 255, 255, 255 );
+        }
+        nav > ul > li > div ul > li:hover > a > .caret {
+            border-left-color: rgb(255,255,255);
+        }
+      nav > ul > li > div,
+      nav > ul > li > div ul > li > div {
+        background-color: rgb( 40, 44, 47 );
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+        display: none;
+        margin: 0;
+        opacity: 0;
+        position: absolute;
+        width: 165px;
+        visibility: hidden;
+
+        -webkit-transiton: opacity 0.2s;
+        -moz-transition: opacity 0.2s;
+        -ms-transition: opacity 0.2s;
+        -o-transition: opacity 0.2s;
+        -transition: opacity 0.2s;
+      }
+        nav > ul > li > div ul > li > div {
+            background-color: rgb( 40, 44, 47 );
+            border-radius: 0 4px 4px 4px;
+            box-shadow: inset 2px 0 5px rgba(0,0,0,.15);
+            margin-top: -42px;
+            right: -165px;
+        }
+        nav > ul > li:hover > div,
+        nav > ul > li > div ul > li:hover > div {
+          display: block;
+          opacity: 1;
+          visibility: visible;
+        }
+          nav > ul > li > div ul > li,
+          nav > ul > li > div ul > li > div ul > li {
+            display: block;
+            position: relative;
+          }
+            nav > ul > li > div ul > li > a,
+            nav > ul > li > div ul > li > div ul > li > a {
+              color: #fff;
+              display: block;
+              padding: 12px 24px;
+              text-decoration: none;
+            }
+              nav > ul > li > div ul > li:hover > a {
+                background-color: rgba( 255, 255, 255, 0.1);
+              }
+
+/* Index Page */
+
+/* Products Page */
+
+/* About Page */
+#executivebox{
+    border: 0px solid white;
+    padding: 0 0 250px 0;
+
+}
+#exec1{
+    float: left;
+    border: 0px solid red;
+    font-size: 12px;
+}
+#execpic1{
+    height: 130px;
+    width: auto;
+    max-width: 750px;
+    max-height: 150px;
+	margin: 10px 20px 10px 20px;
+    overflow: visible;
+    border: 3px solid white
+}
+#exec2{
+    float: left;
+    border: 0px solid blue;
+    font-size: 12px;
+    overflow: hidden;
+}
+#execpic2{
+    height: 130px;
+    width: auto;
+    max-width: 750px;
+    max-height: 150px;
+	margin: 10px 20px 10px 20px;
+    overflow: visible;
+    border: 3px solid white
+}
+#exec3{
+    float:left;
+    border: 0px solid green;
+    font-size: 12px;
+    overflow: hidden;
+}
+#execpic3{
+    height: 130px;
+    width: auto;
+    max-width: 750px;
+    max-height: 150px;
+	margin: 10px 20px 10px 20px;
+    overflow: visible;
+    border: 3px solid white
+}
+
+/* Careers page */
+
+/* Email Contact page */
+.contact {
+    padding: 3px 5px 3px 5px;
+}
+#email{
+    float: left;
+}
+#name{
+    float: left;
+}
+#subject{
+    margin:10px 0 0 0 ;
+}
+#submitb{
+    margin: 0 0 0 15px
+}
+#map {
+  height: 300px;
+  width: 300px;
+ }
+#cinfo{
+    float: left;
+
+}
+#cmap{
+    float: left;
+    margin: 50px 0 0px 50px;
+}
+
+/* Footer */
+.footer {
+	height: auto;
+	background: #000000;
+	color: #FAEBD7;
+	width: 100%;
+	margin: 0 0 0 0;
+	padding:20px 0 20px 0;
+	
+}
+#footinfo{
+	font-size: 12px;
+	font-weight: normal;
+	padding:10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
+    border: 1px solid darkgray;
+}
+#linkbar{
+    text-align: center;
+	font-size: 10px;
+	font-weight: normal;
+	padding:0 0 0 0;
+	margin: 0 0;
+}
+#copyright {
+    width: 45%;
+    float: left;
+	font-size: 12px;
+	font-weight: normal;
+	padding:0 0 0 0;
+	margin: 0 0 0 10px;
+
+}
+#webdesign {
+
+    float: right;
+	font-size: 12px;
+	font-weight: normal;
+    padding:0 0 0 0;
+	margin: 0 10px 0 0;
+}
+.footerbottom {
+    width: 100%;
+    overflow: hidden;
+}
