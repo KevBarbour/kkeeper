@@ -1,0 +1,46 @@
+{% extends 'base.html' %} 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Careers{% endblock %}</title>
+</head>
+
+<title> 
+	{% block pagecontent %}
+</title>
+
+
+<body class="bodycareers">
+	{% include 'partials/nav-bar.html' with active_tab='tab4' %}
+	<div class="content">
+		<h1>Careers</h1>
+        <p>
+		This page will host information on careers
+		</p>
+        <div id="career1">
+            <h2>Career 1</h2>
+            <p> this is an area that has a brief job decription</p>
+            <p>there is a link in this description with the full job description</p>
+        </div>
+
+        <div id="career2">
+            <h2>Career 2</h2>
+            <p> this is an area that has a brief job decription</p>
+            <p>there is a link in this description with the full job description</p>            <p></p>
+        </div>
+
+        <div id="career3">
+            <h2>Career 3</h2>
+            <p> this is an area that has a brief job decription</p>
+            <p>there is a link in this description with the full job description</p>            <p></p>
+        </div>
+	</div>
+	
+	{% include 'partials/footer.html' %}
+
+{% endblock %}
+</body>
+</html>

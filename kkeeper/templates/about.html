@@ -1,0 +1,70 @@
+{% extends 'base.html' %} 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}About Us {% endblock %}</title>
+</head>
+
+<title> 
+	{% block pagecontent %}
+
+</title>
+
+
+<body class="bodyabout">
+	{% include 'partials/nav-bar.html' with active_tab='tab3' %}
+	<div class="content">
+		<h1 class="heading">
+		About
+		</h1>
+		
+		<p>
+		    This is a paragraph with pictures of the company so that you can describe it, include pictures. areas of operation
+            and any other information that you want the customer to know about your company
+		</p>
+
+
+
+        <h3>Values</h3>
+            <p>Here goes the company values</p>
+
+        <h4>Company Goal</h4>
+            <p>Here goes the company goal or saying</p>
+
+
+        <div id="executivebox">
+
+            <h3>Meet The Team</h3>
+
+            <div id="exec1">
+                <img id="execpic1" src=" /static/images/portrait1.jpeg">
+                <h2>John Doe</h2>
+                <h4>Owner</h4>
+                <p>Here is a big bio about mr john</p>
+            </div>
+
+            <div id="exec2">
+                <img id="execpic2" src=" /static/images/portrait2.jpg">
+                <h2>Jane Doe</h2>
+                <h4>Senior Vice-President</h4>
+                <p>Here is a big bio about mr john</p>
+            </div>
+
+            <div id="exec3">
+                <img id="execpic3" src=" /static/images/portrait7.jpg">
+                <h2>Jonathan Deer</h2>
+                <h4>Vice-President</h4>
+                <p>Here is a big bio about mr john</p>
+            </div>
+
+        </div>
+    </div>
+	
+	{% include 'partials/footer.html' %}
+
+{% endblock %}
+</body>
+</html>
