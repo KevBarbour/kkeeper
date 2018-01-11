@@ -1,12 +1,13 @@
 
 
-{% load static %}
+{% load staticfiles %}
+
+<script src="{% static "js/kkeeper-jquery.js" %}"></script>
+<script src="{% static "js/jquery-3.2.1.js" %}"></script>
+<script type="text/javascript" src="{{ STATIC_URL }} js/jquery-3.2.1.js"></script>
+
 <!--{% block additional_styles %}
-<style>
-   body {
-    background-image: url({% static '/static/images/background.gif' %});
-   }
-</style>
+
 {% endblock %}-->
 
 <style>
@@ -15,11 +16,6 @@
     src: url('{% static 'fonts/NHaasGroteskTXPro/NHaasGroteskTXPro-55Rg.ttf' %}');    
   }
 </style>
-
-<script src="{% static "js/skeletonv3-jquery.js" %}"></script>
-<script src="{% static "js/jquery-3.2.1.js" %}"></script>
-<script type="text/javascript" src="{{ STATIC_URL }} js/jquery-3.2.1.js">
-</script>
 
 <!DOCTYPE html>
 <html>
