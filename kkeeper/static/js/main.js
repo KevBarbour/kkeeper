@@ -8,4 +8,40 @@ function initMap() {
     position: uluru,
     map: map
   });
+
+}
+
+// Card Navigation Bar
+
+function dhide() {
+    var x = document.getElementById("diamonds");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function chide() {
+    var x = document.getElementById("clubs");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function hhide() {
+    var x = document.getElementById("hearts");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function shide() {
+    var x = document.getElementById("spades");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
