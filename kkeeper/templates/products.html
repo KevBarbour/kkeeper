@@ -17,77 +17,79 @@
 	{% include 'partials/nav-bar.html' with active_tab='tab2' %}
 	<div class="content">
 
-    <button onclick="toggleDivs('diamonds')">Diamonds</button>
-    <button onclick="toggleDivs('clubs')">Clubs</button>
-    <button onclick="toggleDivs('hearts')">Hearts</button>
-    <button onclick="toggleDivs('spades')">Spades</button>
+    <button onclick="toggleDivs('diamonds')" class="cardbutton"><img id="cardbuttonicon" src=" /static/icons/diamond.png"></button>
+    <button onclick="toggleDivs('clubs')" class="cardbutton"><img id="cardbuttonicon" src=" /static/icons/club.png"></button>
+    <button onclick="toggleDivs('hearts')" class="cardbutton"><img id="cardbuttonicon" src=" /static/icons/heart.png"></button>
+    <button onclick="toggleDivs('spades')" class="cardbutton"><img id="cardbuttonicon" src=" /static/icons/spade.png"></button>
+
+        <br><br><br><br><br><br>        <br><br><br>
 
         <div id="listings">
 
             <div id=diamonds>
                 <p>Diamonds</p>
                 <div class="cardblock" id="d2">
-                    <img id="card" src=" /static/images/cards/d2.png">
+                    <img class="card" src=" /static/images/cards/d2.png">
                     <h4>2 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d3">
-                    <img id="card" src=" /static/images/cards/d3.png">
+                    <img class="card" src=" /static/images/cards/d3.png">
                     <h4>3 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d4">
-                    <img id="card" src=" /static/images/cards/d4.png">
+                    <img class="card" src=" /static/images/cards/d4.png">
                     <h4>4 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d5">
-                    <img id="card" src=" /static/images/cards/d5.png">
+                    <img class="card" src=" /static/images/cards/d5.png">
                     <h4>5 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d6">
-                    <img id="card" src=" /static/images/cards/d6.png">
+                    <img class="card" src=" /static/images/cards/d6.png">
                     <h4>6 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d7">
-                    <img id="card" src=" /static/images/cards/d7.png">
+                    <img class="card" src=" /static/images/cards/d7.png">
                     <h4>7 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d8">
-                    <img id="card" src=" /static/images/cards/d8.png">
+                    <img class="card" src=" /static/images/cards/d8.png">
                     <h4>8 of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="d9">
-                    <img id="card" src=" /static/images/cards/d9.png">
+                    <img class="card" src=" /static/images/cards/d9.png">
                     <h4>9 of Diamonds</h4>
                     <p>Matt Malmi</p>
                 </div>
                 <div class="cardblock" id="d10">
-                    <img id="card" src=" /static/images/cards/d10.png">
+                    <img class="card" src=" /static/images/cards/d10.png">
                     <h4>10  of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="dj">
-                    <img id="card" src=" /static/images/cards/dj.png">
+                    <img class="card" src=" /static/images/cards/dj.png">
                     <h4>Jack of Diamonds</h4>
                     <p>Gavin Andreson</p>
                 </div>
                 <div class="cardblock" id="dq">
-                    <img id="card" src=" /static/images/cards/dq.png">
+                    <img class="card" src=" /static/images/cards/dq.png">
                     <h4>Queen of Diamonds</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="dk">
-                    <img id="card" src=" /static/images/cards/dk.png">
+                    <img class="card" src=" /static/images/cards/dk.png">
                     <h4>King of Diamonds</h4>
                     <p>Satoski Nakamoto</p>
                 </div>
                 <div class="cardblock" id="da">
-                    <img id="card" src=" /static/images/cards/da.png">
+                    <img class="card" src=" /static/images/cards/da.png">
                     <h4>Ace of Diamonds</h4>
                     <p>TBD</p>
                 </div>
@@ -95,67 +97,67 @@
             <div id=clubs>
                 <p>Clubs</p>
                 <div class="cardblock" id="c2">
-                    <img id="card" src=" /static/images/cards/c2.png">
+                    <img class="card" src=" /static/images/cards/c2.png">
                     <h4>2 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c3">
-                    <img id="card" src=" /static/images/cards/c3.png">
+                    <img class="card" src=" /static/images/cards/c3.png">
                     <h4>3 of Clubs</h4>
                     <p>GameKyuubi</p>
                 </div>
                 <div class="cardblock" id="c4">
-                    <img id="card" src=" /static/images/cards/c4.png">
+                    <img class="card" src=" /static/images/cards/c4.png">
                     <h4>4 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c5">
-                    <img id="card" src=" /static/images/cards/c5.png">
+                    <img class="card" src=" /static/images/cards/c5.png">
                     <h4>5 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c6">
-                    <img id="card" src=" /static/images/cards/c6.png">
+                    <img class="card" src=" /static/images/cards/c6.png">
                     <h4>6 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c7">
-                    <img id="card" src=" /static/images/cards/c7.png">
+                    <img class="card" src=" /static/images/cards/c7.png">
                     <h4>7 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c8">
-                    <img id="card" src=" /static/images/cards/c8.png">
+                    <img class="card" src=" /static/images/cards/c8.png">
                     <h4>8 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c9">
-                    <img id="card" src=" /static/images/cards/c9.png">
+                    <img class="card" src=" /static/images/cards/c9.png">
                     <h4>9 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="c10">
-                    <img id="card" src=" /static/images/cards/c10.png">
+                    <img class="card" src=" /static/images/cards/c10.png">
                     <h4>10 of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="cj">
-                    <img id="card" src=" /static/images/cards/cj.png">
+                    <img class="card" src=" /static/images/cards/cj.png">
                     <h4>Jack of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="cq">
-                    <img id="card" src=" /static/images/cards/cq.png">
+                    <img class="card" src=" /static/images/cards/cq.png">
                     <h4>Queen of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="ck">
-                    <img id="card" src=" /static/images/cards/ck.png">
+                    <img class="card" src=" /static/images/cards/ck.png">
                     <h4>King of Clubs</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="ca">
-                    <img id="card" src=" /static/images/cards/ca.png">
+                    <img class="card" src=" /static/images/cards/ca.png">
                     <h4>Ace of Clubs</h4>
                     <p>TBD</p>
                 </div>
@@ -163,67 +165,67 @@
             <div id=hearts>
                 <p>Hearts</p>
                 <div class="cardblock" id="h2">
-                    <img id="card" src=" /static/images/cards/h2.png">
+                    <img class="card" src=" /static/images/cards/h2.png">
                     <h4>2 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h3">
-                    <img id="card" src=" /static/images/cards/h3.png">
+                    <img class="card" src=" /static/images/cards/h3.png">
                     <h4>3 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h4">
-                    <img id="card" src=" /static/images/cards/h4.png">
+                    <img class="card" src=" /static/images/cards/h4.png">
                     <h4>4 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h5">
-                    <img id="card" src=" /static/images/cards/h5.png">
+                    <img class="card" src=" /static/images/cards/h5.png">
                     <h4>5 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h6">
-                    <img id="card" src=" /static/images/cards/h6.png">
+                    <img class="card" src=" /static/images/cards/h6.png">
                     <h4>6 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h7">
-                    <img id="card" src=" /static/images/cards/h7.png">
+                    <img class="card" src=" /static/images/cards/h7.png">
                     <h4>7 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h8">
-                    <img id="card" src=" /static/images/cards/h8.png">
+                    <img class="card" src=" /static/images/cards/h8.png">
                     <h4>8 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h9">
-                    <img id="card" src=" /static/images/cards/h9.png">
+                    <img class="card" src=" /static/images/cards/h9.png">
                     <h4>9 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="h10">
-                    <img id="card" src=" /static/images/cards/h10.png">
+                    <img class="card" src=" /static/images/cards/h10.png">
                     <h4>10 of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="hj">
-                    <img id="card" src=" /static/images/cards/hj.png">
+                    <img class="card" src=" /static/images/cards/hj.png">
                     <h4>Jack of Hearts</h4>
                     <p>Hal Finney</p>
                 </div>
                 <div class="cardblock" id="hq">
-                    <img id="card" src=" /static/images/cards/hq.png">
+                    <img class="card" src=" /static/images/cards/hq.png">
                     <h4>Queen of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="hk">
-                    <img id="card" src=" /static/images/cards/hk.png">
+                    <img class="card" src=" /static/images/cards/hk.png">
                     <h4>King of Hearts</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="ha">
-                    <img id="card" src=" /static/images/cards/ha.png">
+                    <img class="card" src=" /static/images/cards/ha.png">
                     <h4>Ace of Hearts</h4>
                     <p>TBD</p>
                 </div>
@@ -231,73 +233,73 @@
             <div id=spades>
                 <p>Spades</p>
                 <div class="cardblock" id="s2">
-                    <img id="card" src=" /static/images/cards/s2.png">
+                    <img class="card" src=" /static/images/cards/s2.png">
                     <h4>2 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s3">
-                    <img id="card" src=" /static/images/cards/s3.png">
+                    <img class="card" src=" /static/images/cards/s3.png">
                     <h4>3 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s4">
-                    <img id="card" src=" /static/images/cards/s4.png">
+                    <img class="card" src=" /static/images/cards/s4.png">
                     <h4>4 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s5">
-                    <img id="card" src=" /static/images/cards/s5.png">
+                    <img class="card" src=" /static/images/cards/s5.png">
                     <h4>5 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s6">
-                    <img id="card" src=" /static/images/cards/s6.png">
+                    <img class="card" src=" /static/images/cards/s6.png">
                     <h4>6 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s7">
-                    <img id="card" src=" /static/images/cards/s7.png">
+                    <img class="card" src=" /static/images/cards/s7.png">
                     <h4>7 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s8">
-                    <img id="card" src=" /static/images/cards/s8.png">
+                    <img class="card" src=" /static/images/cards/s8.png">
                     <h4>8 of Spades</h4>
                     <p>Winklevoss Twin</p>
                 </div>
                 <div class="cardblock" id="s9">
-                    <img id="card" src=" /static/images/cards/s9.png">
+                    <img class="card" src=" /static/images/cards/s9.png">
                     <h4>9 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="s10">
-                    <img id="card" src=" /static/images/cards/s10.png">
+                    <img class="card" src=" /static/images/cards/s10.png">
                     <h4>10 of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="sj">
-                    <img id="card" src=" /static/images/cards/sj.png">
+                    <img class="card" src=" /static/images/cards/sj.png">
                     <h4>Jack of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="sq">
-                    <img id="card" src=" /static/images/cards/sq.png">
+                    <img class="card" src=" /static/images/cards/sq.png">
                     <h4>Queen of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="sk">
-                    <img id="card" src=" /static/images/cards/sk.png">
+                    <img class="card" src=" /static/images/cards/sk.png">
                     <h4>King of Spades</h4>
                     <p>TBD</p>
                 </div>
                 <div class="cardblock" id="sa">
-                    <img id="card" src=" /static/images/cards/sa.png">
+                    <img class="card" src=" /static/images/cards/sa.png">
                     <h4>Ace of Spades</h4>
                     <p>Amaury Séchet</p>
                 </div>
             </div>
         </div>
-        <script language="javascript">toggleDivs('hearts');</script>
+        <script language="javascript">toggleDivs('diamonds');</script>
 	</div>
     
 	{% include 'partials/footer.html' %}
