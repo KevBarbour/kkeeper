@@ -353,7 +353,7 @@ body {
 .cardblock{
     float:left;
     border: 1px solid orange;
-    padding: 1px 1px 1px 1px:
+    padding: 1px 1px 1px 1px;
 }
 .cardblock p {
     text-align: center;
@@ -372,22 +372,22 @@ body {
 #da{
     float: none;
     border: 1px solid orange;
-    padding: 1px 1px 1px 1px:
+    padding: 1px 1px 1px 1px;
 }
 #ca{
     float: none;
     border: 1px solid orange;
-    padding: 1px 1px 1px 1px:
+    padding: 1px 1px 1px 1px;
 }
 #ha{
     float: none;
     border: 1px solid orange;
-    padding: 1px 1px 1px 1px:
+    padding: 1px 1px 1px 1px;
 }
 #sa{
     float: none;
     border: 1px solid orange;
-    padding: 1px 1px 1px 1px:
+    padding: 1px 1px 1px 1px;
 }
 
 /* About Page */

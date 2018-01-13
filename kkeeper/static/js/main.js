@@ -12,36 +12,10 @@ function initMap() {
 }
 
 // Card Navigation Bar
-
-function dhide() {
-    var x = document.getElementById("diamonds");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-function chide() {
-    var x = document.getElementById("clubs");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-function hhide() {
-    var x = document.getElementById("hearts");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
-function shide() {
-    var x = document.getElementById("spades");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+function toggleDivs(idToShow){
+    document.getElementById("diamonds").style.display = 'none';
+    document.getElementById("hearts").style.display = 'none';
+    document.getElementById("clubs").style.display = 'none';
+    document.getElementById("spades").style.display = 'none';
+    document.getElementById(idToShow).style.display = 'block';
 }

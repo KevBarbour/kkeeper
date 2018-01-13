@@ -17,10 +17,10 @@
 	{% include 'partials/nav-bar.html' with active_tab='tab2' %}
 	<div class="content">
 
-    <button onclick="dhide()">Diamonds</button>
-    <button onclick="chide()">Clubs</button>
-    <button onclick="hhide()">Hearts</button>
-    <button onclick="shide()">Spades</button>
+    <button onclick="toggleDivs('diamonds')">Diamonds</button>
+    <button onclick="toggleDivs('clubs')">Clubs</button>
+    <button onclick="toggleDivs('hearts')">Hearts</button>
+    <button onclick="toggleDivs('spades')">Spades</button>
 
         <div id="listings">
 
@@ -297,6 +297,7 @@
                 </div>
             </div>
         </div>
+        <script language="javascript">toggleDivs('hearts');</script>
 	</div>
     
 	{% include 'partials/footer.html' %}
