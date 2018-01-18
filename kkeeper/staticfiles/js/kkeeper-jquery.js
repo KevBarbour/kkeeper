@@ -1,9 +1,4 @@
-$(document).ready(function() {
-
-        // JQuery code to be added in here.
-
-});
-
+(document).ready(function() {
 jQuery(document).ready(function() {
     jQuery('.toggle-nav').click(function(e) {
         jQuery(this).toggleClass('active');
@@ -12,4 +7,7 @@ jQuery(document).ready(function() {
         e.preventDefault();
     });
 });
+});
+
+
 

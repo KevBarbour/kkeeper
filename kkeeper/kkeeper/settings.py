@@ -26,7 +26,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webapp.apps.WebappConfig',
+    'andablog',
+    'markitup',  # For entry content
+    'taggit',  # For entry tags
 ]
+
+# A python-markdown example that allows HTML in the entry content
+MARKITUP_FILTER = ('markdown.markdown', {'safe_mode': False})
+MARKITUP_SET = 'markitup/sets/markdown/'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -29,27 +29,16 @@ def email(request):
 def thanks(request):
     return HttpResponse('Thank you for your message.')
 
-
 class HomePageView(TemplateView):
     template_name = "index.html"
-
-
 class AboutPageView(TemplateView):
     template_name = "about.html"
-
-
 class CareersPageView(TemplateView):
     template_name = "careers.html"
-
-
 class ProductsPageView(TemplateView):
     template_name = "products.html"
-
-
 class TermsPageView(TemplateView):
     template_name = "terms.html"
-
-
 class PrivacyPageView(TemplateView):
     template_name = "privacy.html"
 

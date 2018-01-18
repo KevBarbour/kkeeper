@@ -333,172 +333,86 @@ body {
 
 /* Products Page */
 
-#card{
+#listings{
+    border: 2px solid purple;
+}
+.cardbutton{
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    margin: 0 0 30px 0;
+    height: 50px;
+    width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    overflow: visible;
+    border: 0 solid white;
+}
+.cardbuttonicon{
+    height: 50px;
+    width: auto;
+}
+#diamonds{
+    border: 1px solid green;
+}
+#clubs{
+    border: 1px solid black;
+
+}
+#hearts{     border: 1px solid red;
+
+}
+#spades{
+        border: 1px solid blue;
+
+}
+.cardblock{
+    float:left;
+    border: 1px solid orange;
+    padding: 1px 1px 1px 1px;
+}
+.cardblock p {
+    text-align: center;
+}
+.cardblock h4{
+    text-align: center;
+}
+.card{
     height: 130px;
     width: auto;
     max-width: 750px;
     max-height: 150px;
 	margin: 10px 20px 10px 20px;
     overflow: visible;
+
 }
-#d2{
-    float: left;
-}
-#d3{
-    float: left;
-}
-#d4{
-    float: left;
-}
-#d5{
-    float: left;
-}
-#d6{
-    float: left;
-}
-#d7{
-    float: left;
-}
-#d8{
-    float: left;
-}
-#d9{
-    float: left;
-}
-#d10{
-    float: left;
-}
-#dj{
-    float: left;
-}
-#dq{
-    float: left;
-}
-#dk{
-    float: left;
-}
+.card:hover{
+ -webkit-transform: scale(3.5);
+ transform: scale(3.5);
+ }
+.card{
+ -webkit-transition: 0.6s ease;
+ transition: 0.6s ease;
+ }
 #da{
-
-}
-
-#c2{
-    float: left;
-}
-#c3{
-    float: left;
-}
-#c4{
-    float: left;
-}
-#c5{
-    float: left;
-}
-#c6{
-    float: left;
-}
-#c7{
-    float: left;
-}
-#c8{
-    float: left;
-}
-#c9{
-    float: left;
-}
-#c10{
-    float: left;
-}
-#cj{
-    float: left;
-}
-#cq{
-    float: left;
-}
-#ck{
-    float: left;
+    float: none;
+    border: 1px solid orange;
+    padding: 1px 1px 1px 1px;
 }
 #ca{
-
-}
-
-#h2{
-    float: left;
-}
-#h3{
-    float: left;
-}
-#h4{
-    float: left;
-}
-#h5{
-    float: left;
-}
-#h6{
-    float: left;
-}
-#h7{
-    float: left;
-}
-#h8{
-    float: left;
-}
-#h9{
-    float: left;
-}
-#h10{
-    float: left;
-}
-#hj{
-    float: left;
-}
-#hq{
-    float: left;
-}
-#hk{
-    float: left;
+    float: none;
+    border: 1px solid orange;
+    padding: 1px 1px 1px 1px;
 }
 #ha{
-
-}
-
-#s2{
-    float: left;
-}
-#s3{
-    float: left;
-}
-#s4{
-    float: left;
-}
-#s5{
-    float: left;
-}
-#s6{
-    float: left;
-}
-#s7{
-    float: left;
-}
-#s8{
-    float: left;
-}
-#s9{
-    float: left;
-}
-#s10{
-    float: left;
-}
-#sj{
-    float: left;
-}
-#sq{
-    float: left;
-}
-#sk{
-    float: left;
+    float: none;
+    border: 1px solid orange;
+    padding: 1px 1px 1px 1px;
 }
 #sa{
-
+    float: none;
+    border: 1px solid orange;
+    padding: 1px 1px 1px 1px;
 }
 
 /* About Page */

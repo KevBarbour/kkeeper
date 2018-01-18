@@ -8,4 +8,14 @@ function initMap() {
     position: uluru,
     map: map
   });
+
+}
+
+// Card Navigation Bar
+function toggleDivs(idToShow){
+    document.getElementById("diamonds").style.display = 'none';
+    document.getElementById("hearts").style.display = 'none';
+    document.getElementById("clubs").style.display = 'none';
+    document.getElementById("spades").style.display = 'none';
+    document.getElementById(idToShow).style.display = 'block';
 }
